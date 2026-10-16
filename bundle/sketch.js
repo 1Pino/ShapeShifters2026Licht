@@ -21,8 +21,8 @@ function draw() {
   console.log(height, winMouseY);
   
     
-  let wght = map(winMouseX, 0, width, -400, 400)
-  let opsz = constrain(map(winMouseY, 0, height, 0, 800), 0, 800)
+  let wght = map(winMouseY, 0, height, -400, 400)
+  let opsz = constrain(map(winMouseX, 0, width, 0, 800), 0, 800)
   
   txt.style(
     "font-variation-settings", 
