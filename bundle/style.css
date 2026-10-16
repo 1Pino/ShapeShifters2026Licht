@@ -138,7 +138,7 @@ header{
 
 h1{
 
-    font-family: Klar12VAR;
+    font-family: LICHT;
     font-variation-settings: 'wght'400,'opsz' 800; ;
     --headline-wght: 400;
     --headline-wdth: 0;
@@ -147,7 +147,7 @@ h1{
     
 }
 h2{
-font-family: Klar12VAR;
+font-family: LICHT;
     font-variation-settings: 'wght'0,'opsz' 800; ;
     --headline-wght: 0;
     --headline-wdth: 800;
@@ -165,7 +165,7 @@ p{
 
 }
 ul{
-    font-family: Klar12VAR;
+    font-family: LICHT;
     font-variation-settings: 'wght'400,'opsz' 800; ;
     font-size: 52px;
     letter-spacing: 0px;
@@ -193,7 +193,7 @@ ul{
 .li-letter:hover {
     transition-duration: 0ms;
     transition-timing-function: linear;
-    font-variation-settings: 'wght' 200,  'opsz' 800;
+    font-variation-settings: 'wght' 400,  'opsz' 400;
 }
 
 .headline-letter {
@@ -248,8 +248,8 @@ h2 .headline-letter:hover {
 .flux-letter,
 .flux-space {
     display: inline-block;
-    font-variation-settings: 'wght' 0,  'opsz' 00;
-    transition-property: font-variation-settings,  width;
+    font-variation-settings: 'wght' -400,  'opsz' 800;
+    transition-property: font-variation-settings, ;
     transition-duration: 9200ms;
     transition-timing-function: cubic-bezier(0.12, 0.78, 0.2, 1);
     
@@ -258,7 +258,7 @@ h2 .headline-letter:hover {
 .flux-letter:hover {
     transition-duration: 30ms;
     transition-timing-function: linear;
-    font-variation-settings: 'wght' 800,  'opsz' 800;
+    font-variation-settings: 'wght' 400,  'opsz' 0;
     
 }
 
@@ -294,9 +294,10 @@ h2 .headline-letter:hover {
 .foundry-sample {
     display: block;
     font-family:LICHT;
+
     font-size: 80px;
     line-height: 1.05;
-    font-variation-settings: 'wght' 0, 'opsz' 800;
+    font-variation-settings: 'wght' 400, 'opsz' 00;
     outline: none;
     margin-bottom: 18px;
     padding: 10px;
@@ -321,7 +322,8 @@ h2 .headline-letter:hover {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 8px;
-    font-family: Klar13;
+    font-family: LICHT;
+    font-variation-settings:'wght' 400, 'opsz' 00; ;
     font-size: 14px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
