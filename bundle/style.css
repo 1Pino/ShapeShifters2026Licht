@@ -12,6 +12,11 @@
    src: url(assets/fonts/KLAR13scanlines2DVF.ttf);
   
 }
+@font-face {
+   font-family: LICHT;
+   src: url(assets/fonts/LICHT0930VF.ttf);
+  
+}
 
 :root {
     --test-bg: rgb(0, 0, 0);
@@ -24,7 +29,10 @@
     --scan-belt-duration: 80s;
     --scan-max-wght: 800;
 }
-
+.intro {
+    font-size: 60px;
+    font-family: LICHT;
+}
 body.tests-light {
     --test-bg: rgb(255, 255, 255);
     --test-fg: rgb(0, 0, 0);
@@ -149,8 +157,8 @@ font-family: Klar12VAR;
    
 }
 p{
-    font-family: Klar12VAR;
-    font-variation-settings: 'wght'-200,'opsz' 800; ;
+    font-family: LICHT;
+    font-variation-settings: 'wght'-200,'opsz' 100; ;
     font-size: 26px;
     letter-spacing: 0.2px;
     color:black;
@@ -240,7 +248,7 @@ h2 .headline-letter:hover {
 .flux-letter,
 .flux-space {
     display: inline-block;
-    font-variation-settings: 'wght' 0, 'wdth' 800, 'opsz' 800;
+    font-variation-settings: 'wght' 0,  'opsz' 00;
     transition-property: font-variation-settings,  width;
     transition-duration: 9200ms;
     transition-timing-function: cubic-bezier(0.12, 0.78, 0.2, 1);
@@ -250,7 +258,7 @@ h2 .headline-letter:hover {
 .flux-letter:hover {
     transition-duration: 30ms;
     transition-timing-function: linear;
-    font-variation-settings: 'wght' 800, 'wdth' 0, 'opsz' 800;
+    font-variation-settings: 'wght' 800,  'opsz' 800;
     
 }
 
@@ -285,7 +293,7 @@ h2 .headline-letter:hover {
 
 .foundry-sample {
     display: block;
-    font-family: Klar12VAR;
+    font-family:LICHT;
     font-size: 80px;
     line-height: 1.05;
     font-variation-settings: 'wght' 0, 'opsz' 800;

@@ -3,7 +3,7 @@ async function setup() {
   
   createCanvas(400, 400);
   
-let font = await loadFont('00_Licht_Pino_0_0VF.ttf')
+let font = await loadFont('LICHT0930VF.ttf')
   fill('rgb(0, 0, 0)')
   textFont(font);
   textSize(360);
